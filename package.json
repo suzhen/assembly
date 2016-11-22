@@ -12,6 +12,7 @@
   "dependencies": {
     "bluebird": "^3.4.1",
     "co": "^4.6.0",
+    "koa": "^1.2.4",
     "line-reader": "^0.4.0",
     "mongoose": "^4.5.8",
     "string": "^3.3.1"

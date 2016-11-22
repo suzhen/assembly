@@ -6,12 +6,12 @@ var S = require('string')
 var fs = require('fs')
 const Writable = require('stream').Writable
 
-var file = fs.createWriteStream('/Users/suzhen/Projects/assembly/wordfolder/tive.txt')
+var file = fs.createWriteStream('/Users/suezhen/Projects/assembly/wordfolder/nate.txt')
 
 var query = Word.find({}).cursor()
 var words = []
 query.on('data', function (word) {
-  if (S(word.letters).endsWith('tive')) {
+  if (S(word.letters).endsWith('nate')) {
     words.push(word.letters) 
   }
   // do something with the mongoose document
