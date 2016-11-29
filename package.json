@@ -4,17 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ava",
     "start": "node index.js"
   },
   "author": "Evan Sue",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.4.1",
+    "bunyan": "^1.8.5",
     "co": "^4.6.0",
     "koa": "^1.2.4",
     "line-reader": "^0.4.0",
     "mongoose": "^4.5.8",
-    "string": "^3.3.1"
+    "string": "^3.3.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-cli": "^6.18.0",
+    "babel-preset-node7": "^1.4.0",
+    "eslint": "^3.11.1"
   }
 }

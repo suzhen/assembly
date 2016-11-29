@@ -1,6 +1,13 @@
+import koa from 'koa'
 
+import createLogger from './lib/logger'
+const logger = createLogger()
 
+import 'dotenv'
 
+var app = koa()
+
+// app.listen(3501)
 
 // var koa = require('koa')
 // require('dotenv').config()
@@ -32,7 +39,7 @@
 //   .get('/alerts', alert())
 //   .get('/lexicon', lexicon())
 
-// var app = koa()
+
 
 // // var reload = require('require-reload')
 
@@ -64,4 +71,4 @@
 
 // app.listen(3501)
 
-// logger.info('double-seventh started')
+logger.info('assembly started')
