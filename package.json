@@ -13,7 +13,11 @@
     "bluebird": "^3.4.1",
     "bunyan": "^1.8.5",
     "co": "^4.6.0",
+    "co-body": "^4.2.0",
+    "dotenv": "^2.0.0",
     "koa": "^1.2.4",
+    "koa-cors": "0.0.16",
+    "koa-router": "^5.4.0",
     "line-reader": "^0.4.0",
     "mongoose": "^4.5.8",
     "string": "^3.3.1",
@@ -23,6 +27,8 @@
     "ava": "^0.17.0",
     "babel-cli": "^6.18.0",
     "babel-preset-node7": "^1.4.0",
-    "eslint": "^3.11.1"
+    "chai": "^3.5.0",
+    "eslint": "^3.11.1",
+    "istanbul": "^0.4.5"
   }
 }
